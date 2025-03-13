@@ -32,8 +32,8 @@ author:
   email            : "shyu0@qq.com" 
 
   # Academic websites
-  arxiv            : "https://arxiv.org"
-  googlescholar    : "https://scholar.google.com"
+  arxiv            : # "https://arxiv.org"
+  googlescholar    : # "https://scholar.google.com"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -69,11 +69,11 @@ author:
   tumblr           : # Username
   twitter          : # Username for X / Twitter
   vine             : # Username
-  weibo            : "yes" # Username
+  weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "yes" # Username
-  zhihu            : "yes" # Username
+  youtube          : # Username
+  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
