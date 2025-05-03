@@ -2,7 +2,12 @@
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}
+  <a href="https://clustrmaps.com/site/1c5uz"  title="ClustrMaps">
+    <img src="//www.clustrmaps.com/map_v2.png?d=ty-XrizHVHJEJd-b-DURExc4tSM2udzhx1O15T36rVY&cl=ffffff" />
+  </a>
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ty-XrizHVHJEJd-b-DURExc4tSM2udzhx1O15T36rVY"></script>
+  {% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
@@ -20,7 +25,6 @@
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=n&d=ty-XrizHVHJEJd-b-DURExc4tSM2udzhx1O15T36rVY&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
   {% endif %}
   </div>
 {% endif %}
