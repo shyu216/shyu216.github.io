@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-This guy is too lazy to write anything here. 
+This page is under construction... 🚧🛠️
 
-<a href="https://clustrmaps.com/site/1c5uz"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=ty-XrizHVHJEJd-b-DURExc4tSM2udzhx1O15T36rVY&cl=ffffff" /></a>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=ty-XrizHVHJEJd-b-DURExc4tSM2udzhx1O15T36rVY&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
