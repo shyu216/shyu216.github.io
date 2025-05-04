@@ -268,7 +268,8 @@
 
   @include breakpoint($large) {
     display: block; // 在大屏幕时显示
-    margin: 20px 20px; // 上下外边距为 10px
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
