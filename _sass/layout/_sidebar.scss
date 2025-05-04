@@ -262,3 +262,21 @@
     }
   }
 }
+
+.my__visit-tracker {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  img {
+    max-width: 175px; /* 限制图片宽度 */
+    border-radius: 5px; /* 可选：为图片添加圆角 */
+    // border: 1px solid var(--global-border-color); /* 可选：为图片添加边框 */
+    padding: 0px; /* 图片内边距 */
+  }
+}
