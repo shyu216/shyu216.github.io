@@ -269,6 +269,9 @@
   @include breakpoint($large) {
     display: block; // 在大屏幕时显示
     margin: 20px 20px; // 上下外边距为 10px
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   script {
@@ -276,6 +279,9 @@
 
     @include breakpoint($large) {
       display: block; // 在大屏幕时显示 script
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
