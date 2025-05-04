@@ -96,15 +96,8 @@
 }
 
 
-.clustrmaps-right {
-  float: right; /* 将整个 div 靠右 */
-  text-align: right; /* 确保内部内容（如 script）也靠右对齐 */
-  width: auto; /* 根据内容自动调整宽度 */
-
-    /* 针对动态生成的画布或地图内容 */
-    canvas, img {
-      display: inline-block; /* 确保内容按需显示 */
-      max-width: 100%; /* 防止内容超出容器宽度 */
-      height: auto; /* 保持宽高比 */
-    }
+.clustrmaps {
+  float: left; 
+  text-align: left; 
+  width: 175px; 
 }
