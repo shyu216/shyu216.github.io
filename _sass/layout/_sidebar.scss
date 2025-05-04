@@ -264,19 +264,18 @@
 }
 
 .my__visit-tracker {
-  display: none;
+  display: none; // 默认隐藏
 
   @include breakpoint($large) {
-    display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    display: block; // 在大屏幕时显示
+    margin: 20px 20px; // 上下外边距为 10px
   }
 
-  img {
-    max-width: 175px; /* 限制图片宽度 */
-    border-radius: 5px; /* 可选：为图片添加圆角 */
-    // border: 1px solid var(--global-border-color); /* 可选：为图片添加边框 */
-    padding: 0px; /* 图片内边距 */
+  script {
+    display: none; // 默认隐藏 script
+
+    @include breakpoint($large) {
+      display: block; // 在大屏幕时显示 script
+    }
   }
 }
