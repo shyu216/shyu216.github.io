@@ -14,9 +14,9 @@
   clear: both;
 
   /* sticky footer fix start */
-  position: absolute;
-  bottom: 0em;
-  height: auto;
+  // position: absolute;
+  // bottom: 0em;
+  // height: auto;
   /* sticky footer fix end */
 
   margin-top: 3em;
@@ -93,4 +93,18 @@
       white-space: nowrap;
     }
   }
+}
+
+
+.clustrmaps-right {
+  float: right; /* 将整个 div 靠右 */
+  text-align: right; /* 确保内部内容（如 script）也靠右对齐 */
+  width: auto; /* 根据内容自动调整宽度 */
+
+    /* 针对动态生成的画布或地图内容 */
+    canvas, img {
+      display: inline-block; /* 确保内容按需显示 */
+      max-width: 100%; /* 防止内容超出容器宽度 */
+      height: auto; /* 保持宽高比 */
+    }
 }
