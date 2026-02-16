@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Sihong Yu"
+title                    : "Hong's Home"
 title_separator          : "|"
 name                     : &name "Sihong Yu"
-description              : &description "this body is too lazy to write a description"
+description              : &description "He is too lazy to write a description"
 url                      : https://shyu216.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shyu216/shyu216.github.io"

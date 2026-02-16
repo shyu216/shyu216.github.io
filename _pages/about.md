@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a Master's degree at the School of Computing and Information Systems, University of Melbourne, under the co-supervision of [Dr. Lingyan Ruan](https://lyruan.com/) and [Dr. Bin Chen](https://binchen.me/). My research is centered on image-based biosensing technologies in mixed reality platforms.
+I recently completed my Master's degree at the School of Computing and Information Systems, University of Melbourne, co-supervised by [Dr. Lingyan Ruan](https://lyruan.com/) and [Dr. Bin Chen](https://binchen.me/), where my research focused on image-based biosensing technologies in mixed reality platforms.
 
-I completed my Bachelor's degree from the Department of Computer Science and Engineering at The Chinese University of Hong Kong, where I had the opportunity to collaborate with Zetong Yang, [Prof. Bei Yu](https://www.cse.cuhk.edu.hk/~byu/index.html), and [Prof. Jiaya Jia](https://jiaya.me) on my final year project focusing on street scene 3D object detection. I also conducted summer research on real-time wireless streaming systems under the supervision of [Prof. Zili Shao](https://www.cse.cuhk.edu.hk/~shao).
+Before that, I earned my Bachelor's in Computer Science and Engineering from The Chinese University of Hong Kong. There, I collaborated with Zetong Yang, [Prof. Bei Yu](https://www.cse.cuhk.edu.hk/~byu/index.html), and [Prof. Jiaya Jia](https://jiaya.me) on a final-year project in street-scene 3D object detection, and spent a summer researching real-time wireless streaming systems under [Prof. Zili Shao](https://www.cse.cuhk.edu.hk/~shao).
 
 Mostly into: Computer Vision, Computer Graphics, Human-Computer Interaction
