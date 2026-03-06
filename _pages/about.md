@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+This is the personal website of Sihong YU.
+
 He currently holds a working visa, allowing him to live and work in Australia until February 2028. He is open to both academic and industry opportunities.
 
 He recently completed his Master's degree at the School of Computing and Information Systems, the University of Melbourne, co‑supervised by [Dr. Lingyan Ruan](https://lyruan.com/) and [Dr. Bin Chen](https://binchen.me/). His research focused on image‑based biosensing technologies in mixed reality platforms.
