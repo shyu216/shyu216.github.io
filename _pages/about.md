@@ -7,11 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I now hold a working visa, allowing me to keep exploring Australia until February 2028.
-I am open to both academic and industry opportunities.
+He currently holds a working visa, allowing him to live and work in Australia until February 2028. He is open to both academic and industry opportunities.
 
-I recently completed my Master's degree at the School of Computing and Information Systems, University of Melbourne, co-supervised by [Dr. Lingyan Ruan](https://lyruan.com/) and [Dr. Bin Chen](https://binchen.me/), where my research focused on image-based biosensing technologies in mixed reality platforms.
+He recently completed his Master's degree at the School of Computing and Information Systems, the University of Melbourne, co‑supervised by [Dr. Lingyan Ruan](https://lyruan.com/) and [Dr. Bin Chen](https://binchen.me/). His research focused on image‑based biosensing technologies in mixed reality platforms.
 
-Before that, I earned my Bachelor's in Computer Science and Engineering from The Chinese University of Hong Kong. There, I collaborated with Zetong Yang, [Prof. Bei Yu](https://www.cse.cuhk.edu.hk/~byu/index.html), and [Prof. Jiaya Jia](https://jiaya.me) on a final-year project in street-scene 3D object detection, and spent a summer researching real-time wireless streaming systems under [Prof. Zili Shao](https://www.cse.cuhk.edu.hk/~shao).
+Prior to that, he earned his Bachelor's in Computer Science and Engineering at [New Asia College](https://www.na.cuhk.edu.hk/), the Chinese University of Hong Kong. There, he worked on his final‑year project in street‑scene 3D object detection under the supervision of [Prof. Bei Yu](https://www.cse.cuhk.edu.hk/~byu/index.html), [Prof. Jiaya Jia](https://jiaya.me), and Dr. Zetong Yang. He also spent a summer researching real‑time wireless streaming systems under [Prof. Zili Shao](https://www.cse.cuhk.edu.hk/~shao).
 
-Mostly into: Computer Vision, Computer Graphics, Human-Computer Interaction
+He is originally from Sanya, China. His interests include Computer Vision, Computer Graphics, and Human‑Computer Interaction, with a passion for building useful applications in computer.
