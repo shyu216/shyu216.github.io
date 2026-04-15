@@ -16,6 +16,8 @@ main:
         
   - title: "Blog Posts"
     url: /knownoevil/
+    new_tab: true
     
   - title: "CV"
     url: /shyu-resume/
+    new_tab: true
