@@ -6,16 +6,17 @@
   const docBaseTitle = "Hong's Home";
 
   const frames = [
-    "( )",
-    "(`　 )",
+    "(  )",
+    "(`  )",
     "(･`  )",
-    "(ω･`　)",
+    "(ω･` )",
     "(･ω･` )",
     "(´･ω･`)",
     "( ´･ω･)",
-    "(　´･ω)",
+    "( ´･ω)",
     "(  ´･)",
-    "(   ´)",
+    "(  ´)",
+    "(  )",
   ];
 
   const sequence = frames; // already a full loop as provided
@@ -40,7 +41,7 @@
   const start = () => {
     if (timer) clearInterval(timer);
     paused = false;
-    timer = setInterval(tick, 160);
+    timer = setInterval(tick, 200);
   };
 
   const stop = () => {

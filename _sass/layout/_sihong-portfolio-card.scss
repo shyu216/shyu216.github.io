@@ -1,0 +1,88 @@
+/* ==========================================================================
+   SIHONG PORTFOLIO CARD
+   ========================================================================== */
+
+.sihong-portfolio-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 2fr) minmax(0, 8fr);
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background: var(--global-bg-color);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+
+  &:hover,
+  &:focus-within {
+    transform: translateY(-2px);
+    border-color: var(--global-link-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+    .sihong-portfolio-card__teaser img {
+      transform: scale(1.03);
+    }
+  }
+
+  &__teaser {
+    display: block;
+    border-radius: $border-radius;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    background: var(--global-border-color);
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 320ms ease;
+    }
+  }
+
+  &__content {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: $type-size-5;
+
+    a {
+      color: var(--global-link-color);
+    }
+  }
+
+  &__excerpt {
+    margin: 0;
+    color: var(--global-text-color-light);
+  }
+
+  &__meta {
+    margin: 0;
+    font-size: $type-size-6;
+    color: var(--global-text-color-light);
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .sihong-portfolio-card {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    padding: 0.65rem;
+
+    &:hover,
+    &:focus-within {
+      transform: none;
+    }
+  }
+}

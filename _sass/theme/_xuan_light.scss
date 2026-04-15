@@ -1,0 +1,72 @@
+/* ==========================================================================
+   XUAN THEME - LIGHT VERSION (WARM RICE-PAPER LOOK)
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #a36e3f;
+$dark-primary-color         : mix(#000, $primary-color, 30%);
+$darker-primary-color       : mix(#000, $primary-color, 50%);
+$light-primary-color        : mix(#fff, $primary-color, 60%);
+$lighter-primary-color      : mix(#fff, $primary-color, 88%);
+
+$background                 : #f6efdf;
+$background-light           : #fbf6ea;
+$background-lighter         : #fffdf8;
+$text                       : #3f3428;
+$text-muted                 : #6a5b49;
+$link                       : #8a5a2d;
+$link-hover                 : #6e4622;
+$link-visited               : #a77a58;
+$footer                     : #efe4cd;
+$border                     : #dbcdb3;
+$border-dark                : #cbb996;
+
+/* Color codes used for the site */
+$danger-color               : #c8685a;
+$info-color                 : #6f8f86;
+$notice-color               : #9b8e78;
+$success-color              : #7b9f72;
+$warning-color              : #d39a4d;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(80, 60, 35, 0.12);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Light theme for the site */
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$footer};
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border-dark};
+    --global-code-background-color      : #{$background-light};
+    --global-code-text-color            : #{$darker-primary-color};
+    --global-fig-caption-color          : #{$text-muted};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-hover};
+    --global-link-color-visited         : #{$link-visited};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$link};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$text-muted};
+    --global-thead-color                : #{$background-lighter};
+}
+
+/* Gentle rice-paper texture with very low contrast to reduce eye strain */
+body {
+    background-image:
+      radial-gradient(circle at 16% 18%, rgba(165, 125, 79, 0.06) 0 1px, transparent 1px),
+      radial-gradient(circle at 79% 73%, rgba(140, 103, 63, 0.05) 0 1px, transparent 1px),
+      linear-gradient(180deg, #f8f1e4 0%, #f6efdf 100%);
+    background-size: 180px 180px, 220px 220px, 100% 100%;
+}
+
+.page__footer {
+    border-top: 1px solid $border;
+}

@@ -1,0 +1,50 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% elsif post.teaser %}
+  {% capture teaser %}{{ post.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<article class="sihong-portfolio-card" itemscope itemtype="http://schema.org/CreativeWork">
+  <a class="sihong-portfolio-card__teaser" href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="{{ title }}">
+    {% if teaser %}
+      <img src=
+        {% if teaser contains "://" %}
+          "{{ teaser }}"
+        {% else %}
+          "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+        {% endif %}
+        alt="{{ title }} teaser">
+    {% endif %}
+  </a>
+
+  <div class="sihong-portfolio-card__content">
+    <h3 class="sihong-portfolio-card__title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h3>
+
+    {% if post.date %}
+      <p class="sihong-portfolio-card__meta">Published in <i>{{ post.date | date: "%B, %Y" }}</i>
+      {% if post.links %}
+        | 
+        {% for link in post.links %}
+          [<a href="{{ link.url }}">{{ link.name }}</a>]{% unless forloop.last %} | {% endunless %}
+        {% endfor %}
+      {% endif %}
+      </p>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p class="sihong-portfolio-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>
+    {% endif %}
+  </div>
+</article>

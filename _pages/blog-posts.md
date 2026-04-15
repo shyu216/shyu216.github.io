@@ -8,5 +8,3 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-Sihong puts his blog posts [here](/knownoevil/). He has posted lots of interesting items there.

@@ -8,12 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "xuan" # The available themes options are "default", "air", "sunrise", "mint", "dirt", "contrast" and "xuan"
 title                    : "Hong's Home"
 title_separator          : "|"
-name                     : &name "Sihong Yu"
-description              : &description "An introduction of Sihong Yu"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://shyu216.dpdns.org/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "Sihong"
+description              : &description "Personal website of Sihong Yu, a computer vision researcher and engineer, sharing work on mixed-reality image-based biosensing, computer graphics, human-computer interaction, projects, and publications. | 余思宏个人主页：专注计算机视觉与工程实践，分享混合现实图像生物传感、计算机图形学、人机交互相关的研究、项目与论文。"
+url                      : https://shyu216.dpdns.org # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shyu216/shyu216.github.io"
@@ -25,8 +25,8 @@ author:
   # Biographic information
   avatar           : "https://github.com/shyu216.png"
   name             : "Sihong Yu"
-  pronouns         : # example: "she/her"  
-  bio              : "Deep focus. Fast learning. Open sharing."
+  pronouns         : "he/him"
+  bio              : "Computer Science Graduate"
   location         : "Melbourne, Australia"
   employer         : "The University of Melbourne"
   uri              : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "sihong-yu-a35b30205" # Username
+  linkedin         : "sihong-yu" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -222,16 +222,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
