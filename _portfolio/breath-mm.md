@@ -1,6 +1,6 @@
 ---
 title: "Breath Tracking for XV Scanner Workflow"
-excerpt: "A real-time depth-based breath tracking system for clinical workflow automation, improving respiratory signal quality by motion magnification."
+excerpt: "A real-time depth-based breath tracking system for clinical workflow automation, improving respiratory signal quality through motion magnification."
 collection: portfolio
 date: 2025-11-03
 links:

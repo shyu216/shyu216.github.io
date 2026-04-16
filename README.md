@@ -34,3 +34,8 @@ excerpt: "樱花季、展览和街头记录"
 1. 再建一个列表页，比如 `/_pages/travel.html`，像 publications / portfolio 一样把它们列出来。
 
 2. 最后在 \_data/navigation.yml 里加导航项，不然页面存在但菜单里看不到。
+
+### Open link in new tab
+
+- \[(.*?)\]\((.*?)\)
+- <a href="$2" target="_blank">$1</a>

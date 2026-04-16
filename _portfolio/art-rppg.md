@@ -1,5 +1,5 @@
 ---
-title: "Art-rPPG: Real-time Heartbeat-Driven Visual System"
+title: "Art-rPPG: Real-time Heartbeat-Driven Visual Pipeline"
 excerpt: "A real-time rPPG pipeline that estimates heart rate from face video and drives interactive TouchDesigner visuals via OSC and NDI."
 collection: portfolio
 date: 2026-3-7
