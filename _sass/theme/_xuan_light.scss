@@ -9,17 +9,17 @@ $darker-primary-color       : mix(#000, $primary-color, 50%);
 $light-primary-color        : mix(#fff, $primary-color, 60%);
 $lighter-primary-color      : mix(#fff, $primary-color, 88%);
 
-$background                 : #f6efdf;
-$background-light           : #fbf6ea;
-$background-lighter         : #fffdf8;
-$text                       : #3f3428;
-$text-muted                 : #6a5b49;
-$link                       : #8a5a2d;
-$link-hover                 : #6e4622;
-$link-visited               : #a77a58;
-$footer                     : #efe4cd;
-$border                     : #dbcdb3;
-$border-dark                : #cbb996;
+$background                 : #f5f2eb;
+$background-light           : #faf8f3;
+$background-lighter         : #fefdfb;
+$text                       : #3d372f;
+$text-muted                 : #655d53;
+$link                       : #7c5230;
+$link-hover                 : #634125;
+$link-visited               : #8e6c52;
+$footer                     : #ece8de;
+$border                     : #d8d2c5;
+$border-dark                : #c7bfb0;
 
 /* Color codes used for the site */
 $danger-color               : #c8685a;
@@ -61,9 +61,9 @@ $sidebar-screen-min-width   : 1024px;
 /* Gentle rice-paper texture with very low contrast to reduce eye strain */
 body {
     background-image:
-      radial-gradient(circle at 16% 18%, rgba(165, 125, 79, 0.06) 0 1px, transparent 1px),
-      radial-gradient(circle at 79% 73%, rgba(140, 103, 63, 0.05) 0 1px, transparent 1px),
-      linear-gradient(180deg, #f8f1e4 0%, #f6efdf 100%);
+            radial-gradient(circle at 16% 18%, rgba(120, 105, 85, 0.05) 0 1px, transparent 1px),
+            radial-gradient(circle at 79% 73%, rgba(105, 93, 76, 0.04) 0 1px, transparent 1px),
+            linear-gradient(180deg, #f8f6f1 0%, #f5f2eb 100%);
     background-size: 180px 180px, 220px 220px, 100% 100%;
 }
 
