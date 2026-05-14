@@ -1,0 +1,47 @@
+<div class="image-popup" id="image-popup" aria-hidden="true">
+  <div class="image-popup__backdrop" data-action="close"></div>
+  <div class="image-popup__panel" role="dialog" aria-modal="true" aria-label="Game popup">
+    <div class="image-popup__media">
+      <button class="image-popup__close" type="button" data-action="close" aria-label="Close">X</button>
+      <img class="image-popup__image" id="image-popup-image" src="" alt="" />
+    </div>
+  </div>
+</div>
+
+
+<script>
+  (function () {
+    var popup = document.getElementById('image-popup');
+    var image = document.getElementById('image-popup-image');
+    var openButtons = document.querySelectorAll('.image-popup-link');
+
+    function openPopup(evt) {
+      var target = evt.currentTarget;
+      image.src = target.getAttribute('data-game-image') || '';
+      image.alt = target.getAttribute('data-game-title') || 'Game screenshot';
+      popup.setAttribute('aria-hidden', 'false');
+    }
+
+    function closePopup() {
+      popup.setAttribute('aria-hidden', 'true');
+      image.src = '';
+      image.alt = '';
+    }
+
+    openButtons.forEach(function (button) {
+      button.addEventListener('click', openPopup);
+    });
+
+    popup.addEventListener('click', function (evt) {
+      if (evt.target && evt.target.getAttribute('data-action') === 'close') {
+        closePopup();
+      }
+    });
+
+    document.addEventListener('keydown', function (evt) {
+      if (evt.key === 'Escape' && popup.getAttribute('aria-hidden') === 'false') {
+        closePopup();
+      }
+    });
+  })();
+</script>

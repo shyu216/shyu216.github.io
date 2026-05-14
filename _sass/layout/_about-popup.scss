@@ -1,0 +1,104 @@
+// Image popup styles and floating trigger button.
+// 使用主题色作为链接和按钮颜色，支持在图片中心浮动的按钮。
+
+.image-popup-link {
+  appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  color: var(--global-link-color);
+  cursor: pointer;
+  display: inline;
+  font: inherit;
+  padding: 0;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    @extend %tab-focus;
+  }
+}
+
+// 基础弹窗样式（从原内联样式移动到这里）
+.image-popup {
+  align-items: center;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 9999;
+
+  &[aria-hidden="true"] {
+    display: none;
+  }
+}
+
+.image-popup__backdrop {
+  background: rgba(0, 0, 0, 0.65);
+  inset: 0;
+  position: absolute;
+}
+
+.image-popup__panel {
+  background: var(--global-bg-color, #ffffff);
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  max-height: 70vh;
+  max-width: min(80vw, 720px);
+  overflow: auto;
+  padding: 6px;
+  position: relative;
+  z-index: 1;
+}
+
+.image-popup__media {
+  position: relative;
+}
+
+.image-popup__image {
+  border-radius: $border-radius;
+  display: block;
+  height: auto;
+  max-height: calc(70vh - 24px);
+  max-width: 100%;
+  object-fit: contain;
+}
+
+// 弹窗面板内的按钮（关闭按钮）使用主题色边框或背景以突显。
+.image-popup__close {
+  background: transparent;
+  border: 1px solid var(--global-link-color);
+  border-radius: $border-radius;
+  color: var(--global-link-color);
+  padding: 0.25rem 0.5rem;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+
+  &:hover,
+  &:focus {
+    background: var(--global-link-color);
+    color: var(--global-bg-color);
+  }
+}
+
+// 面板在窄屏上适配
+@media (max-width: 480px) {
+  .sihong-portfolio-card__teaser .image-popup-link {
+    padding: 0.4rem 0.7rem;
+  }
+
+  .image-popup__close {
+    top: 10px;
+  }
+
+  .image-popup__panel {
+    margin: 0 12px;
+    padding: 14px;
+  }
+}

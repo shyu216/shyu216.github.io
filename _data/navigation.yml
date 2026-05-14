@@ -8,12 +8,12 @@ main:
   # - title: "Publications"
   #   url: /publications/
 
-  - title: "Education"
-    url: /#his-education
-
   - title: "Portfolio"
     url: /#his-portfolio
         
+  - title: "Education"
+    url: /#his-education
+
   - title: "Blog Posts"
     url: /knownoevil/
     new_tab: true

@@ -27,8 +27,6 @@ His interests include Computer Vision, Computer Graphics, and Human‑Computer I
 
 ## His Education {#his-education}
 
-<img src="https://raw.githubusercontent.com/shyu216/shyu216/refs/heads/main/journey-map.svg" alt="His Journey" />
-
 - **MSc. Computer Science**, The University of Melbourne, 2025
 - **BSc. Computer Science**, The Chinese University of Hong Kong, 2023
 - Hainan Middle School, 2019
@@ -36,6 +34,13 @@ His interests include Computer Vision, Computer Graphics, and Human‑Computer I
 
 ## Misc {#more-about-him}
 
-In his free time, he is addicted to video games, such as Clash of Clans, Honor of Kings, Genshin Impact, Honkai Star Rail and Rock Kingdom. He also enjoys cooking and biking.
+In his free time, he is addicted to video games, such as
+<button class="image-popup-link" data-game-title="Clash of Clans" data-game-image="/images/games/coc.png" type="button">Clash of Clans</button>
+and
+<button class="image-popup-link" data-game-title="Honor of Kings" data-game-image="/images/games/shangguan.png" type="button">Honor of Kings</button>,
+Genshin Impact, Honkai Star Rail and 
+<button class="image-popup-link" data-game-title="Roco Kingdom" data-game-image="/images/games/roco.png" type="button">Roco Kingdom</button>. He also enjoys cooking and biking.
+
+{% include about-popup.html %}
 
 You can visit his blog [here](/knownoevil/) and find his resume [here](/shyu-resume/).

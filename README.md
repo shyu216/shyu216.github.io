@@ -8,6 +8,12 @@ Open docker desktop then
 docker compose up
 ```
 
+or
+
+```bash
+docker compose run --service-ports jekyll-site bash -c "bundle install && bundle exec jekyll serve -H 0.0.0.0 -w --force_polling --config _config.yml,_config_docker.yml"
+```
+
 ### Add folder/content
 
 1. 在 \_config.yml 里加一段：
