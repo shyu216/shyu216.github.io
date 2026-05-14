@@ -4,7 +4,7 @@ excerpt: "A real-time MR biosensing prototype on Meta Quest 3, from concept to f
 collection: portfolio
 date: 2025-11-03
 links:
-  - name: Paper
+  - name: Thesis
     url: /files/CIS-Project-Breath-Tracking.pdf
   - name: Demo
     url: https://youtu.be/zOPQXXpSRbg

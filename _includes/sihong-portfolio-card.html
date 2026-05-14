@@ -32,8 +32,11 @@
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     </h3>
 
-    {% if post.date %}
-      <p class="sihong-portfolio-card__meta">Published in <i>{{ post.date | date: "%B, %Y" }}</i>
+   
+      <p class="sihong-portfolio-card__meta"> 
+      {% if post.date %}
+        Released in <i>{{ post.date | date: "%B, %Y" }}</i>
+      {% endif %}
       {% if post.links %}
         | 
         {% for link in post.links %}
@@ -41,7 +44,6 @@
         {% endfor %}
       {% endif %}
       </p>
-    {% endif %}
 
     {% if post.excerpt %}
       <p class="sihong-portfolio-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>

@@ -4,7 +4,7 @@ excerpt: "His undergraduate FYP in 3D object detection reproduced OpenPCDet mode
 collection: portfolio
 date: 2023-4-24
 links:
-  - name: Paper
+  - name: Thesis
     url: /files/LJ2202.pdf
   - name: Slides
     url: /files/LJ2202-term2slides.pdf

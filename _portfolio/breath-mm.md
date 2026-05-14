@@ -4,7 +4,7 @@ excerpt: "A real-time depth-based breath tracking system for clinical workflow a
 collection: portfolio
 date: 2025-11-03
 links:
-  - name: Paper
+  - name: Thesis
     url: /files/CIS-Project-Breath-Tracking.pdf
   - name: Demo
     url: https://www.youtube.com/watch?v=p7o28IXwsrs&feature=youtu.be
