@@ -15,8 +15,7 @@ He recently completed his Master's degree at the School of Computing and Informa
 
 Prior to that, he earned his Bachelor's in Computer Science and Engineering at <a href="https://www.na.cuhk.edu.hk/" target="_blank">New Asia College</a>, the Chinese University of Hong Kong. There, he worked on his final‑year project in street‑scene 3D object detection under the supervision of <a href="https://www.cse.cuhk.edu.hk/~byu/index.html" target="_blank">Prof. Bei Yu</a>, <a href="https://jiaya.me" target="_blank">Prof. Jiaya Jia</a>, and Dr. Zetong Yang. He also spent a summer researching real‑time wireless streaming systems under <a href="https://www.cse.cuhk.edu.hk/~shao" target="_blank">Prof. Zili Shao</a>.
 
-His interests include Computer Vision, Computer Graphics, and Human‑Computer Interaction, with a passion for building useful applications in computer.
-
+His interests include Computer Vision, Computer Graphics, and Human‑Computer Interaction, with a passion for building useful applications in computing.
 
 ## His Portfolio {#his-portfolio}
 
@@ -40,7 +39,6 @@ and
 <button class="image-popup-link" data-game-title="Honor of Kings" data-game-image="/images/games/shangguan.png" type="button">Honor of Kings</button>,
 Genshin Impact, Honkai Star Rail and 
 <button class="image-popup-link" data-game-title="Roco Kingdom" data-game-image="/images/games/roco.png" type="button">Roco Kingdom</button>. He also enjoys cooking and biking.
+You can visit his blog [here](/knownoevil/) and find his resume [here](/shyu-resume/).
 
 {% include about-popup.html %}
-
-You can visit his blog [here](/knownoevil/) and find his resume [here](/shyu-resume/).
