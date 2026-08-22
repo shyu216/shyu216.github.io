@@ -1,6 +1,6 @@
 ---
 title: "MR‑Guided Orthodontic Mini‑Screw Placement"
-excerpt: "A real-time keypoint matching pipeline providing high-frequency pose estimation of the teeth on Hololense 2"
+excerpt: "Exploring extended reality for real‑time markless teeth pose estimation via keypoint matching on HoloLens 2."
 collection: portfolio
 date: 2026-8-16
 links:
@@ -14,7 +14,7 @@ teaser: "portfolio-disgram/mrdentistry.png"
 ![MR Dentistry Demo]({{ '/images/portfolio-disgram/mrdentistry.png' | relative_url }})
 
 - [Demo Video](https://youtu.be/XVS0L4rJ2Es)
-- [Code Repository (coming soon)](https://github.com/CGUOM/MR-Dentistry)
+- [Code Repository](https://github.com/CGUOM/MR-Dentistry)
 
 Orthodontics is a high-demand dental specialty, and mini‑screw insertion is a routine procedure. To minimize the risk of root damage, the ideal approach uses a 3D‑printed surgical guide to indicate the correct insertion trajectory. In practice, however, the procedure is often performed freehand. Mixed Reality (MR) offers a promising alternative: with a reliable mesh aligned to the patient's anatomy in real time, clinicians can visualize, annotate, and adjust the planned trajectory digitally without the need for physical consumables. MR also holds great potential as a training tool, reducing the learning curve for novice clinicians.
 

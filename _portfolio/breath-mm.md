@@ -17,7 +17,7 @@ teaser: "portfolio-disgram/breathtracking_flask.png"
 
 - [His Master Thesis]({{ '/files/CIS-Project-Breath-Tracking.pdf' | relative_url }})
 - [Demo Video](https://www.youtube.com/watch?v=p7o28IXwsrs&feature=youtu.be)
-- [Code Repository (coming soon)](https://github.com/shyu216/Unity-Quest3-EVM)
+- [Code Repository](https://github.com/shyu216/Unity-Quest3-EVM)
 
 This project was one major part of his master's thesis and focused on real-time respiratory tracking for the 4DMedical XV Scanner workflow.
 

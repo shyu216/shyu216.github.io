@@ -17,7 +17,7 @@ teaser: "portfolio-disgram/assembly.png"
 
 - [His Master Thesis]({{ '/files/CIS-Project-Breath-Tracking.pdf' | relative_url }})
 - [Demo Video](https://youtu.be/zOPQXXpSRbg)
-- [Main Project Repository (coming soon)](https://github.com/shyu216/Unity-Quest3-EVM)
+- [Main Project Repository](https://github.com/shyu216/Unity-Quest3-EVM)
 - [Supporting Calibration Toolkit](https://github.com/shyu216/meta-sense-calib)
 
 This project was the second main part of his master’s thesis. It focused on mixed reality (MR) biosensing using the Meta Quest 3.

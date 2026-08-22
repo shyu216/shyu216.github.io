@@ -14,7 +14,7 @@ teaser: "portfolio-disgram/touchdesigner.png"
 ![Art-rPPG TouchDesigner Demo]({{ '/images/portfolio-disgram/touchdesigner.png' | relative_url }})
 
 - [Demo Video](https://youtu.be/dgdbvwgccpI)
-- [Code Repository (coming soon)](https://github.com/shyu216/art-rppg)
+- [Code Repository](https://github.com/shyu216/art-rppg)
 
 
 This project explores real-time remote photoplethysmography (rPPG) for interactive media. The system estimates heart-rate-related signals from a live camera stream, then maps physiological features to visual effects in TouchDesigner[[1]](#ref-1).
