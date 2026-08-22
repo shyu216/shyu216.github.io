@@ -37,8 +37,7 @@ In his free time, he is addicted to video games, such as
 <button class="image-popup-link" data-game-title="Clash of Clans" data-game-image="/images/games/coc.png" type="button">Clash of Clans</button>
 and
 <button class="image-popup-link" data-game-title="Honor of Kings" data-game-image="/images/games/shangguan.png" type="button">Honor of Kings</button>,
-Genshin Impact, Honkai Star Rail and 
-<button class="image-popup-link" data-game-title="Roco Kingdom" data-game-image="/images/games/roco.png" type="button">Roco Kingdom</button>. He also enjoys cooking and biking.
+Genshin Impact, Honkai Star Rail and Roco Kingdom. He also enjoys cooking and biking.
 You can visit his blog [here](/knownoevil/) and find his resume [here](/shyu-resume/).
 
 {% include about-popup.html %}

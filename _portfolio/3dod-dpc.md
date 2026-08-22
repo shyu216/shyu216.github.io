@@ -1,6 +1,6 @@
 ---
 title: "3D Object Detection based on Densified Point Cloud"
-excerpt: "His undergraduate FYP in 3D object detection reproduced OpenPCDet models on KITTI with minor optimizations for sparse point clouds."
+excerpt: "FYP in 3D object detection reproduced OpenPCDet models on KITTI with minor optimizations for sparse point clouds."
 collection: portfolio
 date: 2023-4-24
 links:
