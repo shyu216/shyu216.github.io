@@ -15,6 +15,7 @@ teaser: "portfolio-disgram/mrdentistry.png"
 
 - [Demo Video](https://youtu.be/XVS0L4rJ2Es)
 - [Code Repository](https://github.com/CGUOM/MR-Dentistry)
+- [Raw Recorded Video](https://www.youtube.com/watch?v=Lxs7WFvDDcM)
 
 Orthodontics is a high-demand dental specialty, and mini‑screw insertion is a routine procedure. To minimize the risk of root damage, the ideal approach uses a 3D‑printed surgical guide to indicate the correct insertion trajectory. In practice, however, the procedure is often performed freehand. Mixed Reality (MR) offers a promising alternative: with a reliable mesh aligned to the patient's anatomy in real time, clinicians can visualize, annotate, and adjust the planned trajectory digitally without the need for physical consumables. MR also holds great potential as a training tool, reducing the learning curve for novice clinicians.
 
