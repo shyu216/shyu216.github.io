@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-This is the personal website of Sihong YU.
+This is the profile of Sihong YU.
 
-He currently holds a working visa, allowing him to live and work in Australia until February 2028. He is open to both academic and industry opportunities.
+He currently holds a work visa, allowing him to explore career pathways in both academia and industry in Australia until February 2028.
 
 He recently completed his Master's degree at the School of Computing and Information Systems, the University of Melbourne, co‑supervised by <a href="https://binchen.me/" target="_blank">Dr. Bin Chen</a> and <a href="https://lyruan.com/" target="_blank">Dr. Lingyan Ruan</a>. His research focused on image‑based biosensing technologies in real-time scenarios.
 
@@ -34,10 +34,7 @@ His interests include Computer Vision, Computer Graphics, and Human‑Computer I
 ## Misc {#more-about-him}
 
 In his free time, he is addicted to video games, such as
-<button class="image-popup-link" data-game-title="Clash of Clans" data-game-image="/images/games/coc.png" type="button">Clash of Clans</button>
-and
-<button class="image-popup-link" data-game-title="Honor of Kings" data-game-image="/images/games/shangguan.png" type="button">Honor of Kings</button>,
-Genshin Impact, Honkai Star Rail and Roco Kingdom. He also enjoys cooking and biking.
-You can visit his blog [here](/knownoevil/) and find his resume [here](/shyu-resume/).
+<button class="image-popup-link" data-game-title="Clash of Clans" data-game-image="/images/games/coc.png" type="button">Clash of Clans</button>, <button class="image-popup-link" data-game-title="Honor of Kings" data-game-image="/images/games/shangguan.png" type="button">Honor of Kings</button>, Genshin Impact, Honkai Star Rail and Roco Kingdom. He also enjoys cooking and biking.
+You can visit his [blog](/knownoevil/) and review his [resume](/shyu-resume/).
 
 {% include about-popup.html %}
